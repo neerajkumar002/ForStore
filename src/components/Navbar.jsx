@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="w-full flex items-center justify-between px-5 py-6">
+    <div className="w-full flex items-center justify-between px-10 py-6">
       <div className="font-bold text-3xl ">ForStore</div>
       <div className="flex items-center gap-3">
         <ul className="flex gap-5">
@@ -11,7 +11,7 @@ const Navbar = () => {
             <Link>Home</Link>
           </li>
           <li>
-            <Link>Products</Link>
+            <Link to="/listing">Products</Link>
           </li>
           <li>
             <Link>Contact</Link>
